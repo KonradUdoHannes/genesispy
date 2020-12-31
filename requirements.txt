@@ -1,4 +1,4 @@
 pandas
-reuqests
+requests
 lxml
 dynaconf

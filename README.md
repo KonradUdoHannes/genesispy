@@ -11,6 +11,10 @@ of a GraphQL API. For particularly easy use I recommend also the
 [python](https://github.com/CorrelAid/datenguide-python)
 and [R](https://github.com/CorrelAid/datenguideR) clients available for datenguide API.
 
+The main purpouse of this client is to keep up to date with the official destatis API
+development with the hope that eventually the official API will also be the one
+that can be used most easily by a wide range of users.
+
 ### Disclaimer
 
 I'm also a core developer of the datenguide python client although no commercial interests
@@ -56,3 +60,12 @@ Afterwards it currently provides three methods
 - `.get_file`
 
 For a minimal usage examples please see `example.ipynb`.
+
+## Notebook kernel installation 
+
+It is often very convenient to use the client from within a jupyter notebook.
+This can be setup as follows.
+
+1. Install ipykernel with `pip install ipykernel`
+2. Create the kernel for instance with the name genesispy with `python -m ipykernel install --user --name genesispy`
+3. Refresh the browser tab running  jupyter
